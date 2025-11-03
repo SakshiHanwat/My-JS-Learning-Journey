@@ -22,27 +22,28 @@ I'm following the official GFG JS course which covers:
 
 📁 javascript-journey/
 │
-├── 📄 README.md → Overview of my learning journey
+├── 📄 README.md → Overview of my learning journey  
 │
 ├── 📘 Notes/ → Concept-wise notes (Markdown files)
-│ ├── 01_Introduction.md
-│ ├── 02_Variables_and_DataTypes.md
-│ ├── 03_Operators.md
-│ └── ...
+│   ├── 01_Introduction.md
+│   ├── 02_Variables_and_DataTypes.md
+│   ├── 03_Operators.md
+│   └── ...
 │
 ├── 💻 Codes/ → Topic-wise code files
-│ ├── 01_Basics/
-│ ├── 02_Functions/
-│ ├── 03_Arrays/
-│ └── ...
+│   ├── 01_Basics/
+│   ├── 02_Functions/
+│   ├── 03_Arrays/
+│   └── ...
 │
 ├── 🚀 Projects/ → Small JS projects made during learning
-│ ├── ToDoApp/
-│ ├── Calculator/
-│ ├── WeatherApp/
-│ └── ...
+│   ├── ToDoApp/
+│   ├── Calculator/
+│   ├── WeatherApp/
+│   └── ...
 │
 └── 🗓️ Daily_Update_Log.md → My daily progress tracker
+
 
 ## 🧠 Learning Goals
 
