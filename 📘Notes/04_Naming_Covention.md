@@ -142,10 +142,3 @@ SyntaxError: Unexpected token 'class'
 
 ---
 
-```
-
-```
-
-```
-
-```
