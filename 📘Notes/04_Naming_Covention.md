@@ -22,7 +22,7 @@ For example:
 
 Trying to start a variable name with `#` or `-` gives an error.
 
-```html
+---html
 <script>
   var #abc = "abc";
   console.log(#abc);
@@ -67,13 +67,20 @@ causes errors.
   console.log(class);
 </script>
 
-🟥 Output: SyntaxError: Unexpected token 'class' 💡 Best Practices for Naming
-Variables ✅ Use meaningful names that describe their purpose. Example:
-userName, totalAmount, isLoggedIn ✅ Follow one naming convention throughout
-your project. The most common one is camelCase (e.g., firstName, totalPrice).
-✅Avoid single-letter names like a, b, x, unless used for small loops. ✅
-Useuppercase for constants and global values. Example: const MAX_LIMIT = 100; 📚
-Quick Summary | Rule | Example | Valid/Invalid | Description |
+🟥 Output: 
+SyntaxError: Unexpected token 'class' 
+
+💡 Best Practices for Naming Variables 
+✅ Use meaningful names that describe their purpose. Example:
+userName, totalAmount, isLoggedIn 
+✅ Follow one naming convention throughout your project. The most common
+one is camelCase (e.g., firstName, totalPrice).
+✅ Avoid single-letter names like a, b, x, unless used for small loops. 
+✅ Useuppercase for constants and global values. Example: const MAX_LIMIT = 100; 
+
+📚 Quick Summary 
+
+| Rule | Example | Valid/Invalid | Description |
 |------|----------|---------------|--------------| | Starts with letter / _ / $
 | `let _data = 5;` | ✅ Valid | Variable name starts correctly | | Starts with
 number | `let 9data = 5;` | ❌ Invalid | Variable name cannot start with a
