@@ -83,4 +83,4 @@ Different | JavaScript treats both as different variables | | Reserved keyword |
 `let function = 10;` | ❌ Invalid | Cannot use JS reserved words as variable
 names | ✍️ Author: Sakshi Hanwat 🗓️ Part of my JavaScript Learning Journey
 Repository
-```
+
