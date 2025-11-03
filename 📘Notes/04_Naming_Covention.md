@@ -22,60 +22,44 @@ For example:
 
 Trying to start a variable name with `#` or `-` gives an error.
 
----html
-
+```html
 <script>
   var #abc = "abc";
   console.log(#abc);
 </script>
-
 ```
 
 🟥 Output: SyntaxError: Invalid or unexpected token
 
 ✅ Correct way:
 
-```
-
 <script>
   var _abc = "abc";
   console.log(_abc);
 </script>
-
-```
 
 🟩 Output: abc
 
 🧪 Example 2: Spaces Are Not Allowed
 If you try to use spaces in a variable name, it results in a SyntaxError.
 
-```
-
 <script>
   var a bc = "abc";
   console.log(a bc);
 </script>
 
-```
-
 🟥 Output: SyntaxError: Unexpected identifier
 ✅ Correct way:
-
-```
 
 <script>
   var abc = "abc";
   console.log(abc);
 </script>
 
-```
-
 🟩 Output: abc
 
 🧪 Example 3: Case Sensitivity
 Variable names are case-sensitive, meaning abc and ABC are two different variables.
-
-```
 
 <script>
   "use strict"; // enables strict mode
@@ -88,8 +72,6 @@ Variable names are case-sensitive, meaning abc and ABC are two different variabl
   console.log(abc == ABC);
 </script>
 
-```
-
 🟩 Output:
 bcd
 efg
@@ -98,26 +80,18 @@ false
 🧪 Example 4: Reserved Words Not Allowed
 Using JavaScript reserved keywords (like class, function, return) as variable names causes errors.
 
-```
-
 <script>
   var class = "class";
   console.log(class);
 </script>
 
-```
-
 🟥 Output:
 SyntaxError: Unexpected token 'class'
-
-```
 
 <script>
   var className = "class";
   console.log(className);
 </script>
-
-```
 
 🟩 Output: class
 
@@ -144,4 +118,7 @@ SyntaxError: Unexpected token 'class'
 🧩 _Part of my JavaScript Learning Journey Repository_
 
 ---
+
+```
+
 ```
