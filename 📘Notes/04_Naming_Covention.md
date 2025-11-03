@@ -70,12 +70,17 @@ causes errors.
 🟥 Output: SyntaxError: Unexpected token 'class' 💡 Best Practices for Naming
 Variables ✅ Use meaningful names that describe their purpose. Example:
 userName, totalAmount, isLoggedIn ✅ Follow one naming convention throughout
-your project. The most common one is camelCase (e.g., firstName, totalPrice). ✅
-Avoid single-letter names like a, b, x, unless used for small loops. ✅ Use
-uppercase for constants and global values. Example: const MAX_LIMIT = 100; 📚
-Quick Summary Rule Example Valid / Invalid Starts with letter/underscore/$ let
-_data = 5; ✅ Starts with number let 9data = 5; ❌ Contains space let user name
-= "Sakshi"; ❌ Case-sensitive let name ≠ let Name ✅ Reserved keyword let
-function = 10; ❌ ✍️ Author: Sakshi Hanwat 🗓️ Part of my JavaScript Learning
-Journey Repository
+your project. The most common one is camelCase (e.g., firstName, totalPrice).
+✅Avoid single-letter names like a, b, x, unless used for small loops. ✅
+Useuppercase for constants and global values. Example: const MAX_LIMIT = 100; 📚
+Quick Summary | Rule | Example | Valid/Invalid | Description |
+|------|----------|---------------|--------------| | Starts with letter / _ / $
+| `let _data = 5;` | ✅ Valid | Variable name starts correctly | | Starts with
+number | `let 9data = 5;` | ❌ Invalid | Variable name cannot start with a
+number | | Contains space | `let user name = "Sakshi";` | ❌ Invalid | Variable
+name cannot have spaces | | Case-sensitive | `let name`, `let Name` | ⚠️
+Different | JavaScript treats both as different variables | | Reserved keyword |
+`let function = 10;` | ❌ Invalid | Cannot use JS reserved words as variable
+names | ✍️ Author: Sakshi Hanwat 🗓️ Part of my JavaScript Learning Journey
+Repository
 ```
