@@ -33,12 +33,16 @@ Trying to start a variable name with `#` or `-` gives an error.
 
 ✅ Correct way:
 
+```html
 <script>
   var _abc = "abc";
   console.log(_abc);
 </script>
+```
 
-## 🟩 Output: abc
+🟩 Output: abc
+
+---
 
 ## 🧪 Example 2: Spaces Are Not Allowed
 
@@ -52,6 +56,7 @@ If you try to use spaces in a variable name, it results in a SyntaxError.
 ```
 
 🟥 Output: SyntaxError: Unexpected identifier
+
 ✅ Correct way:
 
 ```html
@@ -61,7 +66,7 @@ If you try to use spaces in a variable name, it results in a SyntaxError.
 </script>
 ```
 
-## 🟩 Output: abc
+🟩 Output: abc
 
 ## 🧪 Example 3: Case Sensitivity
 
@@ -101,21 +106,19 @@ Using JavaScript reserved keywords (like class, function, return) as variable na
 🟥 Output:
 SyntaxError: Unexpected token 'class'
 
-``html
-
+```html
 <script>
   var className = "class";
   console.log(className);
 </script>
-
 ```
 
 🟩 Output: class
 
 ---
 
-
 ## 💡 Best Practices for Naming Variables
+
 ✅ Use meaningful names that describe their purpose.
 ➡️ Example: userName, totalAmount, isLoggedIn
 ✅ Follow one naming convention throughout your project. The most common one is camelCase (e.g., firstName, totalPrice).
@@ -138,6 +141,8 @@ SyntaxError: Unexpected token 'class'
 🧩 _Part of my JavaScript Learning Journey Repository_
 
 ---
+
+```
 
 ```
 
