@@ -35,7 +35,8 @@ ${a} inserts the value of variable a directly into the string.
 
 Cleaner than using the + operator.
 
-🧮 String Interpolation with Expressions
+## 🧮 String Interpolation with Expressions
+
 You can insert expressions (like x + y) directly inside ${}.
 
 ```js
@@ -47,7 +48,8 @@ console.log(`The sum of ${x} and ${y} is ${x + y}`);
 🟩 Output:
 The sum of 5 and 10 is 15
 
-🧱 Multi-line Strings
+## 🧱 Multi-line Strings
+
 Template literals make multi-line strings simple — no need for \n.
 
 ```js
@@ -62,7 +64,8 @@ This is a multi-line
 string that spans across
 several lines.
 
-🧰 Tagged Template Literals
+## 🧰 Tagged Template Literals
+
 Tagged templates allow you to customize string processing.
 
 ```js
@@ -77,7 +80,8 @@ console.log(greet`Hello, ${name}!`);
 🟩 Output:
 Hello, GFG!
 
-🔒 Escaping Backticks and Dollar Signs
+## 🔒 Escaping Backticks and Dollar Signs
+
 Use \ to escape backticks or $ inside template literals.
 
 ```js
@@ -88,8 +92,9 @@ console.log(s);
 🟩 Output:
 This is a backtick: ` and this is a dollar sign: $
 
-💼 Use Cases of Template Literals
-1️⃣ Multi-line Strings
+## 💼 Use Cases of Template Literals
+
+## 1️⃣ Multi-line Strings
 
 ```js
 const poem = `Roses are red,
@@ -99,7 +104,7 @@ And so are you!`;
 console.log(poem);
 ```
 
-2️⃣ Dynamic Expressions
+## 2️⃣ Dynamic Expressions
 
 ```js
 const a = 5,
@@ -108,7 +113,7 @@ const result = `Sum of ${a} and ${b} is ${a + b}.`;
 console.log(result);
 ```
 
-3️⃣ Tagged Templates
+## 3️⃣ Tagged Templates
 
 ```js
 function tag(strings, ...values) {
@@ -118,7 +123,7 @@ const output = tag`Hello, ${"Saran"}!`;
 console.log(output);
 ```
 
-4️⃣ HTML Templates
+## 4️⃣ HTML Templates
 
 ```js
 const title = "Welcome";
@@ -126,7 +131,7 @@ const html = `<h1>${title}</h1>`;
 console.log(html);
 ```
 
-5️⃣ Conditionals in Templates
+## 5️⃣ Conditionals in Templates
 
 ```js
 const isAdmin = true;
@@ -134,7 +139,7 @@ const userRole = `User role: ${isAdmin ? "Admin" : "Guest"}.`;
 console.log(userRole);
 ```
 
-6️⃣ Loops with Templates
+## 6️⃣ Loops with Templates
 
 ```js
 const items = ["apple", "banana", "cherry"];
@@ -142,7 +147,7 @@ const list = `Items:${items.map((item) => `\n- ${item}`)}`;
 console.log(list);
 ```
 
-7️⃣ Embedding Functions
+## 7️⃣ Embedding Functions
 
 ```js
 const toUpper = (str) => str.toUpperCase();
@@ -152,7 +157,7 @@ console.log(s);
 
 ---
 
-📘 Quick Summary
+##📘 Quick Summary
 
 | **Feature / Concept**     | **Description**                        | **Example Code Snippet**               |
 | ------------------------- | -------------------------------------- | -------------------------------------- |
