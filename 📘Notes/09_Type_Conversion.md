@@ -100,7 +100,7 @@ Code Clarity: Explicit conversions make code clean and predictable.
 
 ## 🧭 Tip:
 
-## Always prefer explicit conversion for cleaner, bug-free JavaScript code.
+Always prefer explicit conversion for cleaner, bug-free JavaScript code.
 
 👩‍💻 Made by Sakshi Hanwat — JavaScript Notes Series
 
