@@ -96,7 +96,7 @@ Data Handling: Required when processing user input or API data.
 
 Prevent Bugs: Avoids unexpected results from automatic coercion.
 
-## Code Clarity: Explicit conversions make code clean and predictable.
+Code Clarity: Explicit conversions make code clean and predictable.
 
 ## 🧭 Tip:
 
