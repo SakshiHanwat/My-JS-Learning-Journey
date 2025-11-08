@@ -19,7 +19,7 @@ I'm following the official GFG JS course which covers:
 ---
 
 ## 🗂️ Repository Structure
-
+```
 📁 javascript-journey/
 │
 ├── 📄 README.md → Overview of my learning journey  
@@ -43,7 +43,7 @@ I'm following the official GFG JS course which covers:
 │   └── ...
 │
 └── 🗓️ Daily_Update_Log.md → My daily progress tracker
-
+```
 
 ## 🧠 Learning Goals
 
