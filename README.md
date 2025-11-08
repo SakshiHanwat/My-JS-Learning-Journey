@@ -68,9 +68,10 @@ I'm following the official GFG JS course which covers:
 
 If you're also learning JavaScript:
 1. Clone this repo:  
-   ```bash
+```bash
 [[   git clone https://github.com/yourusername/javascript-journey.git
 ](https://github.com/SakshiHanwat/My-JS-Learning-Journey.git)]
+```
 2.Navigate through the folders (Notes or Codes).
 
 3.Follow the same structure to track your learning.
