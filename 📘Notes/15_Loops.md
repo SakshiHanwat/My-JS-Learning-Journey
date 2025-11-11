@@ -163,6 +163,7 @@ Iteration: 2
 <b>for-in</b> → Used for objects.
 
 <b>forEach</b> → Used for arrays.
+---
 
 <h3 align="center">🧠 Made with ❤️ by Sakshi Hanwat</h3> </div>
-```
+---
