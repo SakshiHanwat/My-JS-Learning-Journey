@@ -152,7 +152,6 @@ Iteration: 0
 Iteration: 1
 Iteration: 2
 
-```html
 <h3 align="center">✨ Key Points ✨</h3>
 
 <b>for</b> → Used for a specific number of iterations.
