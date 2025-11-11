@@ -151,8 +151,7 @@ if (weather === "sunny") {
 ```
 
 Output:
-
-## It's a warm day.
+It's a warm day.
 
 ## 🧾 Summary Table
 
